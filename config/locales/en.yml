@@ -31,3 +31,25 @@
 
 en:
   hello: "Hello world"
+  app_title: "Ruby on Rails Tutorial Sample App"
+  viet: "Vietnamese"
+  english: "English"
+  layout:
+    header:
+      sample app: "Sample App"
+      home: "Home"
+      help: "Help"
+      log in: "Log in"
+  home:
+    title: "Home"
+    welcome: "Welcome to the Sample App"
+    description: "This is the home page for the"
+    res-description: "sample application."
+    RR: "Ruby on Rails"
+    sign up now: "Sign up now!"
+  help:
+    title: "Help"
+    description: "Get help on the Ruby on Rails Tutorial at the"
+    RR: "Rails Tutorial help page"
+    res-description: ".To get help on this sample app, see the"
+    RR2: "Ruby on Rails Tutorial"
