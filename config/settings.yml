@@ -8,3 +8,8 @@ help:
 
 home:
   guide: "https://guides.rubyonrails.org/"
+
+models:
+  user:
+    name_length: 50
+    email_length: 255
