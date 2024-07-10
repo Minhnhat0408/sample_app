@@ -1,0 +1,23 @@
+vi:
+  app_title: "Hướng dẫn Ngọc trên Ray"
+  viet: "Tiếng Việt"
+  english: "Tiếng Anh"
+  layout:
+    header:
+      sample app: "Ngọc trên Ray"
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      log in: "Đăng nhập"
+  home:
+    title: "Trang chủ"
+    welcome: "Chào mừng đến với Ngọc trên Ray"
+    description: "Đây là trang chủ cho"
+    res-description: "ứng dụng mẫu."
+    RR: "Hướng dẫn Ngọc trên Ray"
+    sign up now: "Đăng ký ngay!"
+  help:
+    title: "Trợ giúp"
+    description: "Nhận trợ giúp về Hướng dẫn Ngọc trên Ray tại"
+    RR: "Trang trợ giúp Hướng dẫn Ngọc trên Ray"
+    res-description: ".Để nhận trợ giúp về ứng dụng mẫu này, xem"
+    RR2: "Hướng dẫn Ngọc trên Ray"

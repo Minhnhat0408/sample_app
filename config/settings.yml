@@ -1,0 +1,10 @@
+default:
+  app_name: "Sample_App"
+  version: "1.0.0"
+
+help:
+  h: "http://www.railstutorial.org/help"
+  b: "http://www.railstutorial.org/book"
+
+home:
+  guide: "https://guides.rubyonrails.org/"

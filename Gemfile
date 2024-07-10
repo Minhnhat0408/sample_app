@@ -3,11 +3,15 @@ git_source(:github){|repo| "https://github.com/#{repo}.git"}
 
 ruby "3.2.2"
 gem "bootsnap", require: false
+gem "bootstrap-sass", "3.4.1"
+gem "config", "~> 3.0"
 gem "importmap-rails"
 gem "jbuilder"
 gem "mysql2", "~> 0.5"
 gem "puma", "~> 5.0"
 gem "rails", "~> 7.0.5"
+gem "rails-i18n"
+gem "sassc-rails"
 gem "sprockets-rails"
 gem "stimulus-rails"
 gem "turbo-rails"
