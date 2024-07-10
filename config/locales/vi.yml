@@ -2,8 +2,18 @@ vi:
   app_title: "Hướng dẫn Ngọc trên Ray"
   viet: "Tiếng Việt"
   english: "Tiếng Anh"
+  create_my_account: "Tạo tài khoản"
+  sign_up: "Đăng ký"
+  flash:
+    user_create: "Chào mừng đến với Ngọc trên Ray!"
+    user_notfound: "Không tìm thấy người dùng"
+    user_failed: "Có lỗi xảy ra"
   layout:
     header:
+      sample app: "Ngọc trên Ray"
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      log in: "Đăng nhập"
       sample app: "Ngọc trên Ray"
       home: "Trang chủ"
       help: "Trợ giúp"
@@ -14,6 +24,7 @@ vi:
     description: "Đây là trang chủ cho"
     res-description: "ứng dụng mẫu."
     RR: "Hướng dẫn Ngọc trên Ray"
+    RR: "Hướng dẫn Ngọc trên Ray"
     sign up now: "Đăng ký ngay!"
   help:
     title: "Trợ giúp"
@@ -21,3 +32,13 @@ vi:
     RR: "Trang trợ giúp Hướng dẫn Ngọc trên Ray"
     res-description: ".Để nhận trợ giúp về ứng dụng mẫu này, xem"
     RR2: "Hướng dẫn Ngọc trên Ray"
+
+  activerecord:
+    models:
+      user: "Người dùng"
+    attributes:
+      user:
+        name: "Tên"
+        email: "Email"
+        password: "Mật Khẩu"
+        password_confirmation: "Xác nhận mật khẩu"
