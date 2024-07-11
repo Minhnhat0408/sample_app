@@ -101,4 +101,17 @@ input {
   .form-control {
     color: $state-danger-text; // Assuming $state-danger-text is defined elsewhere
   }
+
+  input {
+    border-color: $red;
+  }
+
+  label {
+    color: $red;
+  }
+}
+
+/* Dropdown menu */
+.dropdown-menu.active {
+  display: block;
 }
