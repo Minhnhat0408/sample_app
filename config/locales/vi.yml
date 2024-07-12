@@ -5,13 +5,16 @@ vi:
   the_form_contains: "Form chứa"
   error: "lỗi"
 
-  auth:
-    create_my_account: "Tạo tài khoản"
-    sign_up: "Đăng ký"
   flash:
     user_create: "Chào mừng đến với Ngọc trên Ray!"
     user_notfound: "Không tìm thấy người dùng"
     user_failed: "Có lỗi xảy ra"
+    login_success: "Đăng nhập thành công"
+    logout_success: "Đăng xuất thành công"
+
+  auth:
+    create_my_account: "Tạo tài khoản"
+    sign_up: "Đăng ký"
     log_in: "Đăng nhập"
     new_user?: "Chưa có tài khoản?"
     sign_up_now: "Đăng ký ngay!"
@@ -29,6 +32,12 @@ vi:
       settings: "Cài đặt"
       log out: "Đăng xuất"
 
+      users: "Người dùng"
+      account: "Tài khoản"
+      profile: "Hồ sơ"
+      settings: "Cài đặt"
+      log out: "Đăng xuất"
+
   home:
     title: "Trang chủ"
     welcome: "Chào mừng đến với Ngọc trên Ray"
@@ -36,6 +45,7 @@ vi:
     res-description: "ứng dụng mẫu."
     RR: "Hướng dẫn Ngọc trên Ray"
     sign up now: "Đăng ký ngay!"
+
 
   help:
     title: "Trợ giúp"
@@ -59,3 +69,4 @@ vi:
       email: "Email"
       password: "Mật khẩu"
       login: "Đăng nhập"
+      remember: "Lưu thông tin đăng nhập"
