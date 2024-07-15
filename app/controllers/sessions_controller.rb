@@ -5,7 +5,7 @@ class SessionsController < ApplicationController
 
   def create
     if @user.authenticate(params.dig(:session, :password))
-      handle_create_success @user
+      handle_check_activated @user
     else
       flash.now[:danger] = t "auth.invalid_email_password_combination"
       render :new, status: :unprocessable_entity
@@ -35,5 +35,14 @@ class SessionsController < ApplicationController
     params.dig(:session, :remember_me) == "1" ? remember(user) : forget(user)
     flash[:success] = t "flash.login_success"
     redirect_to forwarding_url || user, status: :see_other
+  end
+
+  def handle_check_activated user
+    if user.activated?
+      handle_create_success user
+    else
+      flash[:warning] = t "flash.account_not_activated"
+      redirect_to root_url, status: :see_other
+    end
   end
 end

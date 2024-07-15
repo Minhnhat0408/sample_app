@@ -15,7 +15,9 @@ User.create!(name: "MinhMatMong",
             email: ENV["ADMIN_EMAIL"],
             password: ENV["ADMIN_PASSWORD"],
             password_confirmation: ENV["ADMIN_PASSWORD"],
-            admin: true)
+            admin: true,
+            activated: true,
+            activated_at: Time.zone.now)
 
 
 # Create 30 fake users
@@ -27,5 +29,7 @@ User.create!(name: "MinhMatMong",
   User.create!(name: name,
               email: email,
               password: password,
-              password_confirmation: password)
+              password_confirmation: password,
+              activated: true,
+              activated_at: Time.zone.now)
 end

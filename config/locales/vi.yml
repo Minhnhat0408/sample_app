@@ -11,6 +11,9 @@ vi:
   update_profile: "Cập nhật hồ sơ của bạn"
   all_users: "Tất cả người dùng"
   change: "Thay đổi"
+  hi: "Xin chào"
+  activate: "Kích hoạt"
+  account_activation: "Kích hoạt tài khoản"
 
   flash:
     user_create: "Chào mừng đến với Ngọc trên Ray!"
@@ -24,6 +27,10 @@ vi:
     user_deleted: "Xóa người dùng thành công"
     user_deleted_failed: "Có lỗi xảy ra khi xóa người dùng"
     user_updated_failed: "Có lỗi xảy ra khi cập nhật hồ sơ"
+    account_activated: "Tài khoản đã được kích hoạt!"
+    invalid_activation_link: "Đường dẫn kích hoạt không hợp lệ"
+    check_email: "Vui lòng kiểm tra email của bạn để kích hoạt tài khoản"
+    account_not_activated: "Tài khoản chưa được kích hoạt. Vui lòng kiểm tra email của bạn để lấy đường dẫn kích hoạt"
 
   auth:
     create_my_account: "Tạo tài khoản"
@@ -76,3 +83,6 @@ vi:
       password: "Mật khẩu"
       login: "Đăng nhập"
       remember: "Lưu thông tin đăng nhập"
+
+  user_mailer:
+    account_activation_message: "Chào mừng đến với Hướng dẫn Ngọc trên Ray! Vui lòng kích hoạt tài khoản bằng cách nhấn vào đường dẫn sau:"

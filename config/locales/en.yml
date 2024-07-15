@@ -42,6 +42,9 @@ en:
   update_profile: "Update your profile"
   all_users: "All users"
   change: "Change"
+  hi: "Hi"
+  activate: "Activate"
+  account_activation: "Account activation"
 
   flash:
     user_create: "Welcome to the Sample App!"
@@ -55,7 +58,11 @@ en:
     user_deleted: "User deleted successfully"
     user_deleted_failed: "User deletion failed"
     user_updated_failed: "Profile update failed"
-  
+    account_activated: "Account activated!"
+    invalid_activation_link: "Invalid activation link"
+    check_email: "Please check your email to activate your account"
+    account_not_activated: "Account not activated. Please check your email for the activation link"
+
   auth:
     create_my_account: "Create my account"
     sign_up: "Sign up"
@@ -63,6 +70,7 @@ en:
     new_user?: "New user?"
     sign_up_now: "Sign up now!"
     invalid_email_password_combination: "Invalid email or password"
+
 
   layout:
     header:
@@ -107,3 +115,7 @@ en:
       password: "Password"
       login: "Log in"
       remember: "Remember me on this computer"
+
+  user_mailer:
+    account_activation_message: "Welcome to the Sample App! Click on the link below to activate your
+  account:"
