@@ -15,6 +15,11 @@ vi:
   activate: "Kích hoạt"
   account_activation: "Kích hoạt tài khoản"
 
+  reset_password: "Đặt lại mật khẩu"
+  update_password: "Cập nhật mật khẩu"
+  submit: "Xác nhận"
+  forgot_password: "Quên mật khẩu"
+
   flash:
     user_create: "Chào mừng đến với Ngọc trên Ray!"
     user_notfound: "Không tìm thấy người dùng"
@@ -31,6 +36,12 @@ vi:
     invalid_activation_link: "Đường dẫn kích hoạt không hợp lệ"
     check_email: "Vui lòng kiểm tra email của bạn để kích hoạt tài khoản"
     account_not_activated: "Tài khoản chưa được kích hoạt. Vui lòng kiểm tra email của bạn để lấy đường dẫn kích hoạt"
+    email_sent: "Email đã được gửi với hướng dẫn đặt lại mật khẩu"
+    email_not_found: "Địa chỉ email không tìm thấy"
+    password_reset: "Mật khẩu đã được đặt lại."
+    user_not_found: "Không tìm thấy người dùng!"
+    user_not_activated: "Người dùng chưa được kích hoạt!"
+    password_reset_expired: "Đặt lại mật khẩu đã hết hạn."
 
   auth:
     create_my_account: "Tạo tài khoản"
@@ -86,3 +97,6 @@ vi:
 
   user_mailer:
     account_activation_message: "Chào mừng đến với Hướng dẫn Ngọc trên Ray! Vui lòng kích hoạt tài khoản bằng cách nhấn vào đường dẫn sau:"
+    password_reset: "Đặt lại mật khẩu"
+    password_reset_instruction: "Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới:"
+    password_reset_ignore: "Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ giữ nguyên."
