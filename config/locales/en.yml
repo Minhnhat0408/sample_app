@@ -33,22 +33,33 @@ en:
   app_title: "Ruby on Rails Tutorial Sample App"
   viet: "Vietnamese"
   english: "English"
-  create_my_account: "Create my account"
-  sign_up: "Sign up"
+  the_form_contains: "The form contains"
+  error: "error"
+
+  auth:
+    create_my_account: "Create my account"
+    sign_up: "Sign up"
   flash:
     user_create: "Welcome to the Sample App!"
     user_notfound: "User not found"
     user_failed: "Something went wrong"
+    log_in: "Log in"
+    new_user?: "New user?"
+    sign_up_now: "Sign up now!"
+    invalid_email_password_combination: "Invalid email or password"
+
   layout:
     header:
       sample app: "Sample App"
       home: "Home"
       help: "Help"
       log in: "Log in"
-      sample app: "Sample App"
-      home: "Home"
-      help: "Help"
-      log in: "Log in"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      log out: "Log out"
+
   home:
     title: "Home"
     welcome: "Welcome to the Sample App"
@@ -56,18 +67,26 @@ en:
     res-description: "sample application."
     RR: "Ruby on Rails"
     sign up now: "Sign up now!"
+
   help:
     title: "Help"
     description: "Get help on the Ruby on Rails Tutorial at the"
     RR: "Rails Tutorial help page"
     res-description: ".To get help on this sample app, see the"
     RR2: "Ruby on RailsTutorial"
+
   activerecord:
     models:
       user: "User"
     attributes:
       user:
-      name: "Name"
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Password Confirmation"
+
+  sessions:
+    new:
       email: "Email"
       password: "Password"
-      password_confirmation: "Password Confirmation"
+      login: "Log in"

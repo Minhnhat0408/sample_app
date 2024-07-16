@@ -5,7 +5,23 @@
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to t("layout.header.home"), home_path %></li>
         <li><%= link_to t("layout.header.help"), help_path %></li>
-        <li><%= link_to t("layout.header.log in"), "#" %></li>
+        <% if logged_in? %>
+          <li><%= link_to t("layout.header.users"), "#" %></li>
+          <li class="dropdown" >
+            <%= link_to "#", id: "account", class: "dropdown-toggle", "data-toggle": "dropdown" do %>
+              <%=  t "layout.header.account" %>
+              <b class="caret"></b>
+            <% end %>
+            <ul class="dropdown-menu" id="dropdown-menu">
+              <li><%= link_to t("layout.header.profile"), current_user %></li>
+              <li><%= link_to t("layout.header.settings"), "#" %></li>
+              <li class="divider"></li>
+              <li> <%= link_to t("layout.header.log out"), logout_path,  data: { "turbo-method": :delete } %></li>
+            </ul>
+          </li>
+        <% else %>
+          <li><%= link_to t("layout.header.log in"), login_path %></li>
+        <% end %>
         <li><%= link_to t("english"), locale: :en %></li>
         <li><%= link_to t("viet"), locale: :vi %></li>
       </ul>

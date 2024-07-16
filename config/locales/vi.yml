@@ -2,30 +2,41 @@ vi:
   app_title: "Hướng dẫn Ngọc trên Ray"
   viet: "Tiếng Việt"
   english: "Tiếng Anh"
-  create_my_account: "Tạo tài khoản"
-  sign_up: "Đăng ký"
+  the_form_contains: "Form chứa"
+  error: "lỗi"
+
+  auth:
+    create_my_account: "Tạo tài khoản"
+    sign_up: "Đăng ký"
   flash:
     user_create: "Chào mừng đến với Ngọc trên Ray!"
     user_notfound: "Không tìm thấy người dùng"
     user_failed: "Có lỗi xảy ra"
+    log_in: "Đăng nhập"
+    new_user?: "Chưa có tài khoản?"
+    sign_up_now: "Đăng ký ngay!"
+    invalid_email_password_combination: "Email hoặc mật khẩu không hợp lệ"
+
   layout:
     header:
       sample app: "Ngọc trên Ray"
       home: "Trang chủ"
       help: "Trợ giúp"
       log in: "Đăng nhập"
-      sample app: "Ngọc trên Ray"
-      home: "Trang chủ"
-      help: "Trợ giúp"
-      log in: "Đăng nhập"
+      users: "Người dùng"
+      account: "Tài khoản"
+      profile: "Hồ sơ"
+      settings: "Cài đặt"
+      log out: "Đăng xuất"
+
   home:
     title: "Trang chủ"
     welcome: "Chào mừng đến với Ngọc trên Ray"
     description: "Đây là trang chủ cho"
     res-description: "ứng dụng mẫu."
     RR: "Hướng dẫn Ngọc trên Ray"
-    RR: "Hướng dẫn Ngọc trên Ray"
     sign up now: "Đăng ký ngay!"
+
   help:
     title: "Trợ giúp"
     description: "Nhận trợ giúp về Hướng dẫn Ngọc trên Ray tại"
@@ -42,3 +53,9 @@ vi:
         email: "Email"
         password: "Mật Khẩu"
         password_confirmation: "Xác nhận mật khẩu"
+
+  sessions:
+    new:
+      email: "Email"
+      password: "Mật khẩu"
+      login: "Đăng nhập"
