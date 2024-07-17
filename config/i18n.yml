@@ -1,0 +1,7 @@
+translations:
+  - file: app/javascript/locales/translations.json
+    patterns:
+      - "*"
+
+embed_fallback_translations:
+  enabled: true

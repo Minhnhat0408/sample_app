@@ -14,11 +14,12 @@ vi:
   hi: "Xin chào"
   activate: "Kích hoạt"
   account_activation: "Kích hoạt tài khoản"
-
   reset_password: "Đặt lại mật khẩu"
   update_password: "Cập nhật mật khẩu"
   submit: "Xác nhận"
   forgot_password: "Quên mật khẩu"
+  view_profile: "Xem hồ sơ cua tôi"
+  microposts: "Bài viết"
 
   flash:
     user_create: "Chào mừng đến với Ngọc trên Ray!"
@@ -42,6 +43,10 @@ vi:
     user_not_found: "Không tìm thấy người dùng!"
     user_not_activated: "Người dùng chưa được kích hoạt!"
     password_reset_expired: "Đặt lại mật khẩu đã hết hạn."
+    micropost_created: "Bài viết đã được tạo"
+    micropost_deleted: "Bài viết đã được xóa"
+    micropost_delete_failed: "Có lỗi xảy ra khi xóa bài viết"
+    micropost_invalid: "Bài viết không hợp lệ"
 
   auth:
     create_my_account: "Tạo tài khoản"
@@ -100,3 +105,11 @@ vi:
     password_reset: "Đặt lại mật khẩu"
     password_reset_instruction: "Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới:"
     password_reset_ignore: "Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ giữ nguyên."
+
+  micropost:
+    image_format: "Chỉ chấp nhận file ảnh"
+    size_max: "Kích thước file ảnh phải nhỏ hơn 5MB"
+    post: "Đăng"
+    ago: "trước."
+    compose: "Viết bài viết..."
+    feed: "Bảng tin"
