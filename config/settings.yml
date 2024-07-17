@@ -13,3 +13,13 @@ models:
   user:
     name_length: 50
     email_length: 255
+
+digits:
+  digit_6: 6
+
+page_10: 10
+
+gravatar:
+  size: 80
+  view_size: 50
+  link: "https://gravatar.com/emails"

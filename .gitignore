@@ -32,3 +32,6 @@
 /config/database.yml
 /config/credentials.yml.enc
 /test/*
+
+# Ignore environment files which may contain sensitive information.
+.env

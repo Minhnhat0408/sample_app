@@ -35,6 +35,13 @@ en:
   english: "English"
   the_form_contains: "The form contains"
   error: "error"
+  delete: "delete"
+  delete_confirm: "Are you sure?"
+  edit_user: "Edit user"
+  save: "Save changes"
+  update_profile: "Update your profile"
+  all_users: "All users"
+  change: "Change"
 
   flash:
     user_create: "Welcome to the Sample App!"
@@ -42,7 +49,13 @@ en:
     user_failed: "Something went wrong"
     login_success: "Login successfully"
     logout_success: "Logout successfully"
-
+    user_updated: "Profile updated successfully"
+    please_log_in: "Please log in first"
+    unauthorized: "Unauthorized access"
+    user_deleted: "User deleted successfully"
+    user_deleted_failed: "User deletion failed"
+    user_updated_failed: "Profile update failed"
+  
   auth:
     create_my_account: "Create my account"
     sign_up: "Sign up"
