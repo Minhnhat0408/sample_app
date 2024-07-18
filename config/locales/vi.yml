@@ -20,6 +20,10 @@ vi:
   forgot_password: "Quên mật khẩu"
   view_profile: "Xem hồ sơ cua tôi"
   microposts: "Bài viết"
+  followers: "Người theo dõi"
+  following: "Đang theo dõi"
+  follow: "Theo dõi"
+  unfollow: "Bỏ theo dõi"
 
   flash:
     user_create: "Chào mừng đến với Ngọc trên Ray!"
@@ -47,6 +51,7 @@ vi:
     micropost_deleted: "Bài viết đã được xóa"
     micropost_delete_failed: "Có lỗi xảy ra khi xóa bài viết"
     micropost_invalid: "Bài viết không hợp lệ"
+    relationship_notfound: "Không tìm thấy mối quan hệ"
 
   auth:
     create_my_account: "Tạo tài khoản"
@@ -113,3 +118,6 @@ vi:
     ago: "trước."
     compose: "Viết bài viết..."
     feed: "Bảng tin"
+
+  relationships:
+    not_found: "Không tìm thấy mối quan hệ"
