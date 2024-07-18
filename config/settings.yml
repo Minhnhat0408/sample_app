@@ -23,3 +23,5 @@ gravatar:
   size: 80
   view_size: 50
   link: "https://gravatar.com/emails"
+
+expired_time: 2
