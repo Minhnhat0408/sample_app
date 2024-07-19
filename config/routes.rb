@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'relationships/create'
+  get 'relationships/destroy'
   scope "(:locale)", locale: /en|vi/ do
     root "static_pages#home"
     get "home", to: "static_pages#home", as: :home
@@ -12,5 +14,11 @@ Rails.application.routes.draw do
     resources :account_activations, only: :edit
     resources :password_resets, except: %i(index show destroy)
     resources :microposts, only: %i(create destroy)
+    resources :relationships, only: %i(create destroy)
+    resources :users do
+      member do
+        get :following, :followers
+      end
+    end
   end
 end

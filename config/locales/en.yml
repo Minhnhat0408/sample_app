@@ -51,6 +51,10 @@ en:
   forgot_password: "Forgot password"
   view_profile: "View my profile"
   microposts: "Microposts"
+  followers: "Followers"
+  following: "Following"
+  follow: "Follow"
+  unfollow: "Unfollow"
 
   flash:
     user_create: "Welcome to the Sample App!"
@@ -78,6 +82,7 @@ en:
     micropost_deleted: "Micropost deleted"
     micropost_delete_failed: "Micropost deletion failed"
     micropost_invalid: "Invalid micropost"
+    relationship_notfound: "Relationship not found"
 
   auth:
     create_my_account: "Create my account"
@@ -147,3 +152,6 @@ en:
     ago: "ago."
     compose: "Compose new micropost..."
     feed: "Micropost Feed"
+
+  relationships:
+    not_found: "No relationship yet"
