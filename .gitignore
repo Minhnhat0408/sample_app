@@ -36,4 +36,5 @@
 # Ignore environment files which may contain sensitive information.
 .env
 
+/storage
 /node_modules/

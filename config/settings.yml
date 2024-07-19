@@ -16,6 +16,8 @@ models:
 
 digits:
   digit_6: 6
+  digit_140: 140
+  digit_50: 50
 
 page_10: 10
 
@@ -25,3 +27,11 @@ gravatar:
   link: "https://gravatar.com/emails"
 
 expired_time: 2
+
+maxsize: 5
+
+micropost:
+
+  image_valid_format: ["image/jpeg", "image/gif", "image/png"]
+  image_height: 300
+  image_width: 300

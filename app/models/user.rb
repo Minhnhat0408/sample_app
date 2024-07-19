@@ -1,4 +1,7 @@
 class User < ApplicationRecord
+  has_many :microposts, dependent: :destroy
+  scope :order_by_name, ->{order(name: :asc)}
+
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   INPUT_VALID_ATTRIBUTES = %i(name email password password_confirmation).freeze
   RESET_PASS_INPUT_VALID_ATTRIBUTES = %i(password password_confirmation).freeze
@@ -49,6 +52,10 @@ class User < ApplicationRecord
     reset_sent_at < Settings.expired_time.hours.ago
   end
 
+  def feed
+    microposts
+  end
+
   class << self
     def digest string
       cost = if ActiveModel::SecurePassword.min_cost
@@ -56,7 +63,7 @@ class User < ApplicationRecord
              else
                BCrypt::Engine.cost
              end
-      BCrypt::Password.create string, cost
+      BCrypt::Password.create string, cost:
     end
 
     def new_token

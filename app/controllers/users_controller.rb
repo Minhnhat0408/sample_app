@@ -6,11 +6,8 @@ class UsersController < ApplicationController
   before_action :admin_user, only: :destroy
 
   def show
-    @user = User.find_by id: params[:id]
-    return if @user
-
-    flash[:warning] = t "flash.user_notfound"
-    redirect_to root_path
+    @page, @microposts = pagy @user.microposts.newest, items:
+      Settings.page_10
   end
 
   def index
